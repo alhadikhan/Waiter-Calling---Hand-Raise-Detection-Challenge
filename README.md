@@ -1,16 +1,15 @@
 # Waiter Calling - Hand Raise Detection Challenge
 
-This repository contains a Python script to process a provided video and detect at which desk a hand is being raised using YOLOv8. The project involves extracting frames from the video, creating a dataset, training a YOLOv8 model, and performing inference to identify hand raises in the video.
+This repository contains a Python script to process a provided video and detect at which person is raising their hand using YOLOv8. The project involves extracting frames from the video, creating a dataset, training a YOLOv8 model, and performing inference to identify hand raises in the video.
 
 ## Challenge Description
 
 Write a Python script to process the provided video in such a way that:
 
-- **Detect hand raised:** Process the provided video using Python to detect at which desk the hand is being raised.
-
+- **Detect hand raised:** Process the provided video using Python to detect which person is raising their hand
 ### Details
 
-1. Watch the [video](https://ml-hiring.fringecore.sh/waiter_calling/desk_video.mp4) for more information.
+1. Watch the [video](https://woolen-snapper-914.notion.site/Waiter-Calling-15a1e8a12af181b29736ecb644fdb4e6) for more information.
 2. Solve the challenge in a single Python script.
 3. Provide a `requirements.txt` if any libraries are required.
 
@@ -70,9 +69,9 @@ Write a Python script to process the provided video in such a way that:
    the video, saving the output video with detected hand raises.
 
 ### Project Stucture
-|-- main.py                # Main script containing all steps
-|-- requirements.txt       # List of required libraries
-|-- README.md              # Project description and instructions
-|-- desk_video.mp4         # Input video file
-|-- extracted_frames/      # Directory for extracted frames
-|-- dataset/               # Directory for YOLO formatted dataset
+|-- main.py               
+|-- requirements.txt       
+|-- README.md              
+|-- desk_video.mp4         
+|-- extracted_frames/     
+|-- dataset/               
