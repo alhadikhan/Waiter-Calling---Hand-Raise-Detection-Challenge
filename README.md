@@ -46,25 +46,29 @@ Write a Python script to process the provided video in such a way that:
     ```
 ### Solution Steps
 
-1. Extract Frames from Video: The script extracts frames from the provided video and saves them in the extracted_frames directory.
+1. Extract Frames from Video: The script extracts frames from the provided video and saves them 
+   in the extracted_frames directory.
 
 2. Prepare YOLOv8 Dataset:
 
-Define class names for different people raising their hands.
+   Define class names for different people raising their hands.
 
-Specify frame ranges and bounding boxes for each person.
+   Specify frame ranges and bounding boxes for each person.
 
-Generate YOLO labels for each frame based on the specified annotations.
+   Generate YOLO labels for each frame based on the specified annotations.
 
-Copy images to training and validation directories.
+   Copy images to training and validation directories.
 
-3. Create YAML Configuration: The script creates a YAML file for the YOLOv8 dataset configuration, specifying paths for training and validation images, the number of classes, and class names.
+3. Create YAML Configuration: The script creates a YAML file for the YOLOv8 dataset 
+   configuration, specifying paths for training and validation images, the number of classes, 
+   and class names.
 
-4. Train YOLOv8 Model: The script trains a YOLOv8 model using the prepared dataset, saving the best model weights.
+4. Train YOLOv8 Model: The script trains a YOLOv8 model using the prepared dataset, saving the 
+   best model weights.
 
-5. Run Inference on Video: The script loads the trained YOLOv8 model and performs inference on the video, saving the output video with detected hand raises.
+5. Run Inference on Video: The script loads the trained YOLOv8 model and performs inference on 
+   the video, saving the output video with detected hand raises.
 
-Project Structure
 ### Project Stucture
 |-- main.py                # Main script containing all steps
 |-- requirements.txt       # List of required libraries
